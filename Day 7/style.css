@@ -1,0 +1,41 @@
+.main{
+    height: 1100px;
+    width: 100%;
+    border: 3px;
+    background-color: lightgray;
+}
+.htext{
+    height: 7px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+}
+.tags{
+    padding: 5px;
+    height: 100vh;
+    width: 10%;
+    margin: 10px;
+    background-color: white;
+}
+.main-body{
+    display: flex;
+}
+.body{
+    height: 100vh;
+    width: 90%;
+}
+div .body P::selection{
+    background-color: yellow;
+    color: red;
+}
+.body .p1::first-letter{
+    color: red;
+    font-size: 50px;
+}
+.body .p2::first-letter{
+    color: red;
+    font-size: 50px;
+}
