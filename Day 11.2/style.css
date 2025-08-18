@@ -1,0 +1,91 @@
+body{
+
+    height: 100vh;
+    width: 100%;
+}
+
+.main{
+
+    height: 50%;
+    width: 100%;
+    background-color: #605F53;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.content{
+
+    display: flex;
+    height: 70%;
+    width: 100%;
+    background-color: cadetblue;
+}
+.box-1{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color:#FEE4C3 ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin: 1px;
+}
+.c1{
+    display: flex;
+  justify-content: flex-end;
+}
+.c2{
+     display: flex;
+  justify-content: center;
+}
+.c3{
+     display: flex;
+  justify-content: space-between;
+}
+.c4{
+     display: flex;
+  justify-content: space-around;
+}
+.c5{
+    display: flex;
+  justify-content: space-evenly;
+}
+.c6{
+     display: flex;
+  align-items:flex-start;
+}
+.c7{
+     display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+.c8{
+     display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.c9{
+     display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+.c10{
+     display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.c11{
+     display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.c12{
+     display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+}
